@@ -1,5 +1,7 @@
 # Python/Sudoku for fun
 
+![Python](python_100.jpg?raw=true "Python")![Sudoku](sudoku_100.png?raw=true "Sudoku")
+
 Vez pasada encontré un site que tiene un Sudoku para resolver, 
 https://synthetic-minds.com/pages/try.html
 Basicamente muestra un sudoku y luego de resolverlo hay que ingresar la diagonal y da el veredicto.
@@ -162,3 +164,10 @@ Envio la respuesta, inspeccionando la pagina saqué el formato de json que esper
 ```
 
 Thats it.
+
+```json
+{
+"message":"Correct solution.",
+"status":"valid solution"
+}
+```
